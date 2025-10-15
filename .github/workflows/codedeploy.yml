@@ -11,7 +11,7 @@ permissions:
 
 env:
   AWS_REGION: ap-northeast-2
-  S3_BUCKET: bssm-fastapi-artifacts-19
+  S3_BUCKET: bssm-flask-artifacts-19
   APP_NAME: fastapi-cicd-test
   DEPLOY_GROUP: fastapiapp-prod
   PACKAGE: fastapiapp-${{ github.sha }}.zip
